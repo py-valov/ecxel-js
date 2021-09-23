@@ -15,7 +15,8 @@ module.exports = {
         'semi': 'off',
         'indent': 'off',
         'linebreak-style': 'off',
-        'comma-dangle': 'off'
+        'comma-dangle': 'off',
+        'eol-last': 'off'
     }
 }
 

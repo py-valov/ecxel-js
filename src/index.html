@@ -4,12 +4,34 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Excel</title>
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <title>Etable</title>
   </head>
   <body>
     <div id="app" class="container">
-      <h1 class="text">Hello world!</h1>
-      <p class="p">I`m new king!</p>
+      <div class="etable">
+        <div class="etable__header">
+          <input type="text" class="header__input" value="Новая таблица" />
+
+          <div>
+            <div class="header__button">
+              <span class="material-icons"> delete_forever </span>
+            </div>
+
+            <div class="header__button">
+              <span class="material-icons"> cancel </span>
+            </div>
+          </div>
+        </div>
+        <!-- etable__header end -->
+        <div class="etable__toolbar"></div>
+        <div class="etable__formula"></div>
+        <div class="etable__table"></div>
+      </div>
     </div>
   </body>
 </html>
